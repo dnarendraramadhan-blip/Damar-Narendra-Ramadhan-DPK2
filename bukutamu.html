@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Buku Tamu</title>
+</head>
+
+<body background="images/bgbukutamufinal.jpg"
+      style="background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;">
+
+    <h1 align="center">
+        <font color="white">Buku Tamu</font>
+    </h1>
+
+    <!-- TOMBOL KEMBALI KE HALAMAN UTAMA -->
+    <table align="center" bgcolor="red"
+           cellpadding="12" cellspacing="0">
+        <tr>
+            <td align="center">
+                <a href="index.html">
+                    <font color="white" size="4">
+                        <b>HOME</b>
+                    </font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form action="#" method="post">
+
+        <table width="100%" cellpadding="10">
+
+            <tr>
+                <td colspan="2">
+                    <font size="6" color="white">
+                        <b>Masukan Email</b>
+                    </font>
+                    <br><br>
+
+                    <input type="email"
+                           name="email"
+                           size="70"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="55%" valign="top">
+
+                    <font size="6" color="white">
+                        <b>Nama Asli:</b>
+                    </font>
+                    <br><br>
+
+                    <input type="text"
+                           name="nama"
+                           size="35"
+                           required>
+
+                    <br><br>
+
+                    <font size="6" color="white">
+                        <b>Jenis Kelamin</b>
+                    </font>
+                    <br><br>
+
+                    <font color="white">
+                        <input type="radio"
+                               name="gender"
+                               value="Laki-laki"
+                               required>
+                        Laki-laki
+
+                        <br>
+
+                        <input type="radio"
+                               name="gender"
+                               value="Perempuan">
+                        Perempuan
+                    </font>
+
+                </td>
+
+                <td width="45%" align="center" valign="middle">
+
+                    <img src="images/gambar1.jpeg"
+                         alt="Foto saya"
+                         width="250"
+                         height="300">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+
+                    <font size="6" color="white">
+                        <b>Pesan Kesan</b>
+                    </font>
+
+                    <br><br>
+
+                    <textarea name="pesan"
+                              rows="8"
+                              cols="75"
+                              required></textarea>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Submit">
+                </td>
+
+                <td align="center">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
